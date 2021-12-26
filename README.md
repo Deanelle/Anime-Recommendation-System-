@@ -9,16 +9,27 @@ About the Data The data comes from MyAnimeList and I downloaded the anime.csv fi
 The content:
 
 Anime.csv
+
 anime_id: myanimelist.net's unique id identifying an anime.
+
 name: full name of anime
+
 genre: comma separated list of genres for this anime.
+
 type: movie, TV,OVa, etc.
+
 episodes: how many episodes in this show. (1 if movie).
+
 rating: average rating out of 10 for this anime.
+
 members: number of commuinity members that are in thsi anime's "group".
+
 Rating.csv
+
 user_id: non-identifiable randomly generated user-id
+
 anime_id: the anime that the user has rated
+
 rating: rating out of 10 this user has assigned (-1 if the user watched it but didn’t assign a rating)
 
 Since I only looked at the content based features, I chose to only focus on the anime.csv dataframe and not the rating.csv since I was not looking at the user interaction features.
